@@ -12,6 +12,7 @@ body {
     width: 100%;
     align-items: center;
     justify-content: center;
+    background: white;
 }
 
 .container {
@@ -19,6 +20,7 @@ body {
     flex: 0 1 620px;
     height: auto;
     box-shadow: 0 0 1rem 0 silver;
+    background: white;
 }
 
 .wrapper {
