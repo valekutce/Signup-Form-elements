@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Signup Form</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="title">
+                <h1>Create an account</h1>
+            </div>
+
+            <form action="#">
+                <div class="name-field">
+                    <div class="input-area">
+                        <input type="text" name="name" id="fname" required>
+                        <label for="fname">First Name</label>
+                    </div>
+
+                    <div class="input-area">
+                        <input type="text" name="name" id="lname" required>
+                        <label for="lname">Last Name</label>
+                    </div>
+                </div>
+
+                <div class="input-area">
+                    <input type="email" id="email" autocomplete="off" required>
+                    <label for="Email">Email</label>
+                </div>
+
+                <div class="input-area">
+                    <input type="password" id="password" required>
+                    <label for="password">Password</label>
+                </div>
+
+                <div class="input-area">
+                    <input type="password" id="confirm-pass" required>
+                    <label for="confirm-pass">Confirm Password</label>
+                </div>
+
+                <div class="input-area">
+                    <p>Enter Birthday:</p>
+                    <input type="date" id="date" required>
+                </div>
+
+                <div class="input-area">
+                    <input type="number" id="phone" required>
+                    <label for="phone">Phone</label>
+                </div>
+
+                <div class="gender-wrap">
+                    <p>Select gender:</p>
+                    <div class="gender-area">
+                        <div class="gender-input">
+                            <input type="radio" id="male" name="gender" value="male">
+                            <label for="male">Male</label>
+                        </div>
+                        <div class="gender-input">
+                            <input type="radio" id="female" name="gender" value="female">
+                            <label for="female">Female</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="button-area">
+                    <button type="submit">Signup</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
